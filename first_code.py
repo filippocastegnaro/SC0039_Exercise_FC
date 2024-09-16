@@ -1,9 +1,9 @@
 import csv
 #old file
-old_file = '/Users/xcasfi/Documents/GitHub/brca_cnvs_tcga-1-2.csv' 
+old_file = 'brca_cnvs_tcga-1-2.csv' 
 
 #new file
-new_file = '/Users/xcasfi/Documents/GitHub/brca_cnvs_tcga-1-2_NEW.csv'    
+new_file = 'brca_cnvs_tcga-1-2_NEW.csv'    
 
 #reading the old file
 with open(old_file, mode='r', newline='') as file:
