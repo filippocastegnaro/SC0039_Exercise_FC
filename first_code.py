@@ -12,10 +12,10 @@ with open(old_file, mode='r', newline='') as file:
     #converting the reader into a list
     data = list(reader)
 
-#create the 'lenght' to the header and ' ' values
-new_column_header = 'lenght'
+#create the 'length' to the header and ' ' values
+new_column_header = 'length'
 
-#add 'lenght' to the header
+#add 'length' to the header
 data[0].append(new_column_header)
 
 #define the indices for the columns i want to subtract
